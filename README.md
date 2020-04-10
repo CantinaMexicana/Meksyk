@@ -1,0 +1,2 @@
+# Meksyk
+GitHub Pages
