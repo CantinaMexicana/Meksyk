@@ -1309,6 +1309,38 @@
           "_params": {}
         },
         {
+          "_params": {
+            "modalName": "Ankieta",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Weż udział w ankiecie",
+            "modalBody": "powiedz nam czy będziesz na zlocie FT",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Zamknij",
+            "modalLink": true,
+            "modalLinkUrl": "https://forms.gle/LZGcszEYGKadfdR5A",
+            "modalLinkText": "Ankieta",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": "2"
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Ankieta\">Preview Ankieta</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Ankieta-howtouse\">How to use Ankieta</a>\n</div>\n<div class=\"modal fade\" id=\"Ankieta-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Ankieta-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Ankieta-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Ankieta')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "powiedz nam czy będziesz na zlocie FT",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-p",
+          "modalWindow": "<div class=\"modal fade\" id=\"Ankieta\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"AnkietaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"AnkietaLabel\">Weż udział w ankiecie</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Ankieta_body\">powiedz nam czy będziesz na zlocie FT</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Zamknij</a></div><div class=\"mbr-section-btn\"><a href=\"https://forms.gle/LZGcszEYGKadfdR5A\" class=\"no-anim btn btn-primary display-4\" target=_new>Ankieta</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Ankieta\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Ankieta_body\" ).html();    $( \"#Ankieta_body\" ).empty();    $( \"#Ankieta_body\" ).append(html);  })});</script>"
+        },
+        {
           "alias": false,
           "_styles": {
             "p": {
@@ -1381,38 +1413,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Ankieta",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Weż udział w ankiecie",
-            "modalBody": "powiedz nam czy..",
-            "modalBodyHTML": true,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Zamknij",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Ankieta\">Preview Ankieta</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Ankieta-howtouse\">How to use Ankieta</a>\n</div>\n<div class=\"modal fade\" id=\"Ankieta-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Ankieta-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Ankieta-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Ankieta')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "powiedz nam czy..",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-p",
-          "modalWindow": "<div class=\"modal fade\" id=\"Ankieta\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"AnkietaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"AnkietaLabel\">Weż udział w ankiecie</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Ankieta_body\">powiedz nam czy..</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Zamknij</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Ankieta\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Ankieta_body\" ).html();    $( \"#Ankieta_body\" ).empty();    $( \"#Ankieta_body\" ).append(html);  })});</script>"
         }
       ]
     }
